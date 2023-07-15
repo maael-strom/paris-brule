@@ -1,0 +1,187 @@
+/*                F I C H E      D E      P R É S E N T A T I O N
+                                par bird box.                                        */
+
+
+.bird {
+      background-color : #FCFCFC ; /* couleur du fond */
+      border-top : 4px solid #E9F7EF ; /* couleur du bord haut */
+      border-left : 1px solid #FADBD8 ; /* couleur du bord gauche */
+      border-right : 1px solid #FADBD8 ; /* couleur du bord droit */
+      border-bottom : 4px solid #E9F7EF ; /* couleur du bord haut */
+      width : 460px ;             
+      font-size : 10px ;   
+      text-align : justify ;
+      border-radius : 10px ;
+      padding : 5px;                                            }
+
+.aigle {
+      background-color : #E9F7EF ; /* couleur du fond prénom nom */
+      width : 203px ;             
+      font-size : 10px ;         
+      color : #454545 ; /* couleur du texte */
+      text-align : center ;       
+      padding : 2px ;
+      margin-left:-80px;
+      -ms-transform: rotate(-90deg) ;
+      -webkit-transform: rotate(-90deg) ;
+      transform: rotate(-90deg) ;
+      transition : 1s ;                                          }
+
+.aigle:hover {
+      transition : 1s ;
+      -ms-transform: rotate(0deg) ;
+      -webkit-transform: rotate(0deg) ;
+      transform: rotate(0deg) ;                                  }
+ 
+royal {
+      font-family : times new roman ;
+      font-size : 10px ;
+      text-transform : uppercase ;                              }
+
+.eider {
+      border : 3px solid #FADBD8 ; /* couleur bordure avatar */
+      height : 200px ;                                          }
+
+.faucon {
+      background-color : #FAFAFA ; /* couleur fond informations */
+      color : #454545 ; /* couleur du texte */
+      width : 250px ;
+      border-radius : 5px ;
+      margin-left:-80px ;
+      padding : 5px ;
+      text-align : justify ;
+      line-height : 1.5em ;                                      }
+
+pie {
+      font-family :  arial ;
+      font-weight : bold ;
+      color : #FADBD8 ; /* couleur du texte */
+      font-size : 10px ;
+      text-transform : uppercase ;                              }
+
+.espace {
+      margin-right:5px ;                                        }
+
+.roselin {
+      overflow: auto ;
+      height: 196px ;                                            }
+ 
+.roselin::-webkit-scrollbar {
+      width: 5px ;                                              }
+ 
+.roselin::-webkit-scrollbar-track {
+      background-color: #FAFAFA ; /* couleur fond scrollbar */  }
+ 
+.roselin::-webkit-scrollbar-thumb {
+      background-color: #E9F7EF ; /* couleur scrollbar active */ }
+
+
+.mouette {
+      background-color : #FADBD8 ; /* couleur du fond "ainsi va la vie" */
+      width : 203px ;             
+      font-size : 10px ;         
+      color : #454545 ; /* couleur du texte */
+      text-align : center ;       
+      padding : 2px ;
+      margin-left:-80px;
+      -ms-transform: rotate(90deg) ;
+      -webkit-transform: rotate(90deg) ;
+      transform: rotate(90deg) ;
+      transition : 1s ;                                          }
+
+.mouette:hover {
+      transition : 1s ;
+      -ms-transform: rotate(0deg) ;
+      -webkit-transform: rotate(0deg) ;
+      transform: rotate(0deg) ;                                  }
+
+.hirondelle {
+      background-color : #FAFAFA ; /* couleur fond anecdotes */
+      color : #454545 ; /* couleur du texte */
+      width : 395px ;
+      border-radius : 5px ;
+      margin-left:5px ;
+      padding : 5px ;
+      text-align : justify ;
+      line-height : 1.5em ;                                      }
+
+.alouette {
+      background-color : #FCFCFC ; /* couleur du fond */
+      border-top : 4px solid #E9F7EF ; /* couleur du bord haut */
+      border-left : 1px solid #FADBD8 ; /* couleur du bord gauche */
+      border-right : 1px solid #FADBD8 ; /* couleur du bord droit */
+      border-bottom : 4px solid #E9F7EF ; /* couleur du bord haut */
+      width : 300px ;
+      font-size : 10px ;   
+      text-align : justify ;
+      border-radius : 30px ;
+      margin-left : 200px ;
+      margin-top : -50px ;
+      padding : 5px;                                            }
+
+.monticole {
+      background-color : #FAFAFA ; /* couleur fond hors-jeu */
+      color : #454545 ; /* couleur du texte */
+      border-radius : 30px ;
+      margin-left:5px ;
+      padding : 5px ;
+      text-align : justify ;
+      line-height : 1.5em ;                                      }
+
+.albatros {
+      background-color : #E9F7EF ; /* couleur du fond "ainsi va la vie" */
+      width : 450px ;             
+      font-size : 10px ;         
+      color : #454545 ; /* couleur du texte */
+      text-align : center ;       
+      padding : 2px ;
+      margin-left:-80px ;
+      -ms-transform: rotate(90deg) ;
+      -webkit-transform: rotate(90deg) ;
+      transform: rotate(90deg) ;
+      transition : 1s ;                                          }
+
+.albatros:hover {
+      transition : 1s ;
+      -ms-transform: rotate(0deg) ;
+      -webkit-transform: rotate(0deg) ;
+      transform: rotate(0deg) ;                                  }
+
+.fauvette {
+      background-color : #FAFAFA ; /* couleur fond informations */
+      color : #454545 ; /* couleur du texte */
+      width : 395px ;
+      border-radius : 5px ;
+      margin-left:0px ;
+      margin-right : -125px ;
+      padding : 5px ;
+      text-align : justify ;
+      line-height : 1.5em ;                                      }
+
+.grisette {
+      overflow: auto ;
+      height: 443px ;                                            }
+ 
+.grisette::-webkit-scrollbar {
+      width: 5px ;                                              }
+ 
+.grisette::-webkit-scrollbar-track {
+      background-color: #FAFAFA ; /* couleur fond scrollbar */  }
+ 
+.grisette::-webkit-scrollbar-thumb {
+      background-color: #FADBD8 ; /* couleur scrollbar active */ }
+ 
+.credits {
+      font-family : arial ;
+      margin-left : 60px ;
+      margin-bottom : 10px ;
+      margin-top : 10px ;
+      font-size: 8px ;
+      letter-spacing : 1px ;
+      color : #E5E8E8 ; /* couleur du crédit */                  }
+
+
+/*                F I N      F I C H E      D E      P R É S E N T A T I O N
+                                      par bird box.                                        */
+
+
